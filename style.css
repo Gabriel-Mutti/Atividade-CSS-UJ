@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+header{
+    background-color: #6369d1;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+}
+section{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 1000px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+}
+.palestrante img{
+    width: 300px;
+    height: 200px;
+}
+#tony{
+    width: 300px;
+    height: 300px;
+}
+#jeff{
+    width: 300px;
+    height: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 159, 159);
+}
+button{
+    color: white;
+    background-color: #6369d1;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(41, 41, 206);
+    font-size: medium;
+}
+@media (max-width: 768px) {
+    section{
+        width: auto;
+        margin: 20px;
+    }
+    p{
+        text-align: justify;
+    }
+}

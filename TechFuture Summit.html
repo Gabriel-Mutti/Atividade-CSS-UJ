@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture Summit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TechFuture Summit</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o evento</h2>
+        <p><strong>Data:</strong> 16 de Agosto de 2025 </p>
+        <p><strong>Local:</strong> Centro de Convenções TechConnect, Salvador </p>
+        <p id="tema">O TechFuture Summit reúne desenvolvedores e designers para discutir as tendências mais recentes em tecnologia e design. </p>
+    </section>
+
+    <section id="palestrantes">
+        <h2>Palestrantes</h2>
+        <div class="palestrante">   
+            <img src="bill-gates.jpeg" alt="Foto de Bill Gates">
+            <h3>Bill Gates</h3>
+            <p>Cofundador e Ex-Diretor Executivo da Microsoft</p><br>
+        </div>
+        <div class="palestrante">
+            <img id="tony" src="Tony-Stark.webp" alt="Foto de Tony Stark">
+            <h3>Tony Stark</h3>
+            <p>Fundador e CEO da Stark Industries, líder em engenharia avançada e desenvolvimento de soluções futuristas</p><br>
+        </div>
+        <div class="palestrante">
+            <img id="jeff" src="jeff_bezos.jpg" alt="Foto de Jeff Bezos">
+            <h3>Jeff Bezos</h3>
+            <p>Fundador da Amazon e Pioneiro da Inovação Digital</p>
+        </div>
+    </section>
+    
+    <section id="inscricao">
+        <h2>Inscreva-se</h2>
+        <form action="">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <fieldset>
+                <legend>Escolha o tipo de ingresso:</legend>
+                <label><input type="radio" name="ingresso" value="presencial" required> Presencial</label>
+                <label><input type="radio" name="ingresso" value="online" required> Online</label>
+            </fieldset>
+            
+            <label><input type="checkbox" id="termos" name="termos" required> Aceito os termos e condições</label>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
